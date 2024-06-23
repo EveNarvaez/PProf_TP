@@ -1,0 +1,43 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Texto centrado */
+    padding: 20px; /* Espaciado interior */
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #555; /* Fondo gris oscuro */
+    padding: 10px; /* Espaciado interior */
+}
+
+nav ul {
+    list-style-type: none; /* Quita los estilos de la lista */
+    margin: 0; /* Quita el margen predeterminado */
+    padding: 0; /* Quita el relleno predeterminado */
+    text-align: center; /* Texto centrado */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px; /* Espaciado interior */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Texto centrado */
+    padding: 10px; /* Espaciado interior */
+}

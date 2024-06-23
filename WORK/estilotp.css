@@ -1,0 +1,27 @@
+table {
+border-collapse: collapse;
+width: 100%;
+margin-bottom: 20px;
+background-color: lightblue;
+color: black ; 
+}
+
+.table img {
+max-width:  100px;
+height: auto; /* esto mantiene la proporcion de la imagen */
+display: block;
+margin: 0 auto; 
+}
+
+
+th,td {
+border: 1px solid blue ;
+text-align: left;
+padding: 10px;
+
+body {
+    background-color: #2d145f; /* Color gris claro como ejemplo */
+}
+
+
+}

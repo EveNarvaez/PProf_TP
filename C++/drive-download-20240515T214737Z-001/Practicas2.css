@@ -1,0 +1,204 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    background-color: #6917f6;
+    line-height: 1.6;
+    margin: 20;
+    padding: 10;
+    background-image: url('tp22.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza */
+    background-position: center; /* Centra la imagen de fondo */
+    
+}
+
+header {
+    
+    color: #09f40d;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 60px;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilo básico para el menú de navegación */
+nav {
+   
+    padding: 10px 0; /* Espaciado interno del menú */
+}
+
+nav ul {
+    list-style-type: none; /* Quita los estilos de lista predeterminados */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra los elementos de la lista */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre los elementos */
+}
+
+nav ul li a {
+    color: #ffffff; /* Color del texto del enlace */
+    text-decoration: none; /* Quita la subrayado predeterminado */
+    padding: 10px 15px; /* Espaciado interno de los enlaces */
+    display: inline-block; /* Convierte los enlaces en bloques en línea */
+}
+
+nav ul li a:hover {
+    background-color: #f409ec; /* Color de fondo al pasar el ratón sobre el enlace */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#introduccion h2 {
+    color: #09f40d; /* Color del texto */
+    font-size: 40px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de la fuente */
+    text-align: center; /* Alineación del texto */
+    margin-bottom: 20px; /* Margen inferior */
+    
+}
+
+#cursos h2 {
+    color: #09f40d; /* Color del texto */
+    font-size: 40px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de la fuente */
+    text-align: center; /* Alineación del texto */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+#videos h2{
+    color: #09f40d; /* Color del texto */
+    font-size: 40px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de la fuente */
+    text-align: center;/*  Alineación del texto */
+    margin-bottom: 20px; /* Margen inferior */
+    display: flex; /* Utiliza flexbox para alinear los videos uno debajo del otro */
+    flex-direction: column; /* Alinear los videos en una columna */
+    
+}
+
+
+#recursos h2{
+    color: #09f40d; /* Color del texto */
+    font-size: 40px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de la fuente */
+    text-align: center; /* Alineación del texto */
+    margin-bottom: 20px; /* Margen inferior */
+    
+}
+
+/* Estilos para los párrafos con colores diferentes */
+#introduccion p:nth-child(odd) {
+    font-size: 20px; /* Tamaño de fuente para párrafos */
+    color:#f9f8fb; 
+    padding: 10px;
+}
+
+#introduccion p:nth-child(even) {
+    font-size: 20px; /* Tamaño de fuente para párrafos */
+    color:#f9f8fb; 
+    padding: 10px;
+}
+
+
+.tabla-container {
+    display: flex;
+    justify-content: center; /* Centra las tablas horizontalmente */
+    flex-wrap: wrap; /* Permite que las tablas se envuelvan si no caben en una línea */
+    margin: 20px; /* Margen alrededor del contenedor de las tablas */
+}
+
+table {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-bottom: 20px; /* Espacio entre tablas */
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    color: white
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left; /* Alinea el texto a la izquierda en las celdas */
+    border: 1px solid #ccc; /* Borde de las celdas */
+}
+
+table th {
+    background-color: #09f40d; /* Color de fondo para las cabeceras */
+    font-weight: bold; /* Texto en negrita para las cabeceras */
+    color: black; /* Color de texto para las cabeceras */
+}
+
+
+
+#recursos p {
+    color: #ffffff; /* Color del texto */
+    font-size: 20px; /* Tamaño de fuente */
+    text-align: left; /* Alineación del texto */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+#recursos li {
+    color: #ffffff; /* Color del texto */
+    font-size: 15px; /* Tamaño de fuente */
+    text-align: left; /* Alineación del texto */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+a {
+    color: #ffffff; /* Color para todos los enlaces */
+  }
+  
+  a:hover {
+    color: #09f40d; /* Color al pasar el cursor */
+  }
+
+  .video-container {
+    display: grid; /* Utiliza grid layout para alinear los videos */
+    gap: 20px; /* Espacio entre los videos */
+}
+
+.video-container {
+    width: 100%; /* Asegura que cada video ocupe el 100% del ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción del video */
+    justify-content: center;
+}
+
+  .carousel-container {
+    width: 40%; /* Ajusta el ancho del carrusel según tu diseño */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    overflow: auto; /* Oculta las imágenes que se salgan del contenedor */
+  }
+  
+  .carousel-slide {
+    display: flex; /* Utiliza flexbox para alinear las imágenes en línea */
+    transition: transform 0.5s ease; /* Añade transición suave al cambiar imágenes */
+  }
+  
+  .carousel-slide img {
+    width: 100%; /* Ajusta el tamaño de las imágenes al contenedor */
+    object-fit: fill; /* Ajusta la relación de aspecto de las imágenes */
+    border-radius: 10px; /* Borde redondo */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  footer  {
+
+    color: #ffffff;
+  }
+
